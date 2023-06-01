@@ -8,7 +8,7 @@ import "@goplugin/contracts/src/v0.4/vendor/SafeMathPlugin.sol";
 contract InternalContract is PluginClient, Ownable {
   using SafeMathPlugin for uint256;
   
-  uint256 public REGISTRARFEE = 0.0001 * 10**18;   //DO NOT REMOVE THIS
+  uint256 public REGISTRARFEE = 0;   //DO NOT REMOVE THIS
   //Initialize Oracle Payment     
   uint256 public ORACLE_PAYMENT = 0.1 * 10**18;
   address public oracle;  // "0x97A6d407f4CD30936679d0a28A3bc2A7F13a2185"
